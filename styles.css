@@ -1,6 +1,6 @@
 /* Reset */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -14,8 +14,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -26,7 +26,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -75,9 +75,14 @@ nav.navbar {
 .content {
   height: 100%;
   /* border: 2px solid red; */
-  overflow: scroll;
+  width: 65%;
+  padding: 50px;
 }
-
+body {
+  background-image: url('cats.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* Sidebar */
 
 .sidebar-nav {
@@ -137,6 +142,25 @@ nav.navbar {
 textarea {
   resize: none;
   border: 1px solid lightgray;
+}
+
+li {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  background-color: #5cb85c;
+  width: 55%;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+
 }
 
 /* Messages */
